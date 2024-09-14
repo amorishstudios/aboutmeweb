@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal introduction website.">
+    <title>Welcome to My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .social-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-size: 1.2em;
+            margin: 0 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I'm [Your Name], and this is my personal website. I'm passionate about [Your Interests or Profession], and I love to share my thoughts and projects with the world. Feel free to explore this space to learn more about me and what I do.</p>
+
+    <h2>What I Do</h2>
+    <p>I'm currently involved in [Your Work or Hobbies]. You can check out my blog, portfolio, and more as I continue to update this site with new content.</p>
+
+    <div class="social-links">
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 [Your Name]. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
